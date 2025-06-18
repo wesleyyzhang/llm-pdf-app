@@ -6,7 +6,7 @@ from llama_index.core import Settings, SimpleDirectoryReader, VectorStoreIndex
 from llama_index.llms.openai import OpenAI as OpenAILLM
 from llama_index.embeddings.openai import OpenAIEmbedding, OpenAIEmbeddingModelType
 from llama_index.agent.openai import OpenAIAgent
-from llama_index.tools.query_engine import QueryEngineTool
+from llama_index.agent.tools.query_engine import QueryEngineTool
 
 st.set_page_config(page_title="🤖 ReAct + RAG PDF Agent", layout="centered")
 st.title("🤖 ReAct + RAG Agent for PDFs")
