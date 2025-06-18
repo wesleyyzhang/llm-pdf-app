@@ -5,3 +5,4 @@ llama-index-llms-huggingface
 sentence-transformers
 transformers
 accelerate
+llama-index-tools
